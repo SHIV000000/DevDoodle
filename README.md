@@ -48,31 +48,31 @@ cd WorkWave
 ```
 **Create a Virtual Environment**
 
-On macOS/Linux:
+**On macOS/Linux:**
    ```bash
 
    python3 -m venv venv
    ```
-Activate the Virtual Environment:
+**Activate the Virtual Environment:**
 ```bash
 source venv/bin/activate
  ```
-On Windows:
+**On Windows:**
 ```bash
 python -m venv venv
 ```
 
-***Activate the Virtual Environment:***
+**Activate the Virtual Environment:**
 ```bash
 .\venv\Scripts\activate
 ```
 
-Install Dependencies:
+## Install Dependencies:
 
 ```bash
 pip install django
 ```
-Apply Migrations:
+**Apply Migrations:**
 
 ```bash
 python manage.py makemigrations
