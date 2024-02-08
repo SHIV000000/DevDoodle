@@ -41,7 +41,7 @@ To run the DevDoodle Blog locally, follow these steps:
 ###  Clone the Repository
 
 ```bash
-git clone https://github.com/SHIV000000/WorkWave.git
+git clone https://github.com/SHIV000000/DevDoodle.git
 ```
 ```bash
 cd WorkWave
