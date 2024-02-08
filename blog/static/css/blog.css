@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Indie+Flower|Raleway&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway';
+  background: #f8f8f8;
+}
+
+.pageHeader {
+  margin-top: 20px;
+  background: #4b167c;
+  color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.pageTitle {
+  text-align: center;
+  font-family: 'Homemade Apple', cursive;
+}
+
+.post {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  transition: box-shadow 0.3s ease;
+}
+
+.post:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.post .publishedDate {
+  font-size: 80%;
+  float: right;
+}
+
+.title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 28px;
+  letter-spacing: 1.1px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.post .index {
+  font-family: 'Raleway', cursive;
+  letter-spacing: 1px;
+  text-align: right;
+  font-size: 120%;
+}
+
+a {
+  color: #2d1a3e;
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 150%;
+}
+
+.top-menu {
+  height: 48px;
+  width: 48px;
+  right: 10px;
+  top: 10px;
+  text-align: center;
+  font-size: 150%;
+  cursor: pointer;
+}
+
+.post-form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.post-form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.post-form button {
+  background-color: #4b167c;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.post-form button:hover {
+  background-color: #3c125d;
+}

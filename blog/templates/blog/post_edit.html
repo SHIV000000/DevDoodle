@@ -1,0 +1,16 @@
+<!-- blog\post_edit.html -->
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <div class="post-form-container">
+        <h2 class="title">Edit Post</h2>
+        <form class="post-form" method="POST">
+            {% csrf_token %}
+            <label for="id_title">Title:</label>
+            {{ form.title }}
+            <label for="id_text">Text:</label>
+            {{ form.text }}
+            <button type="submit">Save</button>
+        </form>
+    </div>
+{% endblock %}
