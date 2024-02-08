@@ -59,7 +59,7 @@ source venv/bin/activate
  ```
 **On Windows:**
 ```bash
-python -m venv venv
+py -m venv venv
 ```
 
 **Activate the Virtual Environment:**
