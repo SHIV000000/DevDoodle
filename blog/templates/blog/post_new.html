@@ -1,0 +1,23 @@
+<!-- templates\blog\post_new.html -->
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <div class="max-w-md mx-auto my-8 p-6 bg-white rounded-lg shadow-md">
+        <h2 class="title text-4xl font-Homemade-Apple mb-6 text-center text-indigo-700">Create a New Post</h2>
+        <form class="post-form" method="POST">
+            {% csrf_token %}
+            <div class="mb-6">
+                <label for="id_title" class="block text-sm font-medium text-gray-800 mb-2">Title</label>
+                <input type="text" name="title" id="id_title" placeholder="Enter a catchy title" class="w-full py-2 px-4 border border-gray-300 rounded-md focus:ring focus:border-indigo-500 focus:outline-none transition duration-300 ease-in-out">
+            </div>
+            <div class="mb-6">
+                <label for="id_text" class="block text-sm font-medium text-gray-800 mb-2">Text</label>
+                <textarea name="text" id="id_text" rows="6" placeholder="Express your thoughts..." class="w-full py-2 px-4 border border-gray-300 rounded-md focus:ring focus:border-indigo-500 focus:outline-none transition duration-300 ease-in-out"></textarea>
+            </div>
+            <button type="submit" class="w-full bg-indigo-700 text-white py-3 px-6 rounded-md hover:bg-indigo-800 focus:outline-none focus:ring focus:border-indigo-500 transition duration-300 ease-in-out">
+                <span class="fas fa-upload mr-2"></span> Publish
+            </button>
+        </form>
+        <p class="text-sm text-gray-600 mt-4 text-center">Share your thoughts with the world!</p>
+    </div>
+{% endblock %}

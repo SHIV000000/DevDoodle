@@ -1,0 +1,25 @@
+<!-- templates\blog\post_edit.html -->
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    <div class="post-form-container mx-auto my-8 p-6 bg-white rounded-lg shadow-md max-w-md">
+        <h2 class="title text-4xl font-semibold mb-8 text-indigo-700">Edit Post</h2>
+        <form class="post-form" method="POST">
+            {% csrf_token %}
+            <div class="mb-6">
+                <label for="id_title" class="block text-sm font-medium text-gray-800 mb-2">Title:</label>
+                {{ form.title }}
+            </div>
+            <div class="mb-6">
+                <label for="id_text" class="block text-sm font-medium text-gray-800 mb-2">Text:</label>
+                {{ form.text }}
+            </div>
+            <div class="flex items-center justify-between mb-6">
+                <button type="submit" class="w-full bg-indigo-700 text-white py-3 px-6 rounded-full hover:bg-indigo-800 focus:outline-none focus:ring focus:border-indigo-500 transition duration-300 ease-in-out">
+                    <span class="fas fa-save mr-2"></span> Save Changes
+                </button>
+                <a href="#" class="text-gray-600 hover:text-indigo-700">Cancel</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}

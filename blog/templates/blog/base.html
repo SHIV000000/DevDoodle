@@ -1,0 +1,92 @@
+<!-- templates\blog\base.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevDoodle Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha384-o0H75Z3yyl8++ed6X7fjHNm15Olpxr1PLvfPzdrHTt6l4iyof60q0Tko4Ltvz5lW"
+        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Homemade+Apple|Indie+Flower|Raleway&display=swap" />
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: #f9fafb; /* Light Grayish Blue */
+            margin: 0;
+            padding: 0;
+            transition: background 0.3s ease;
+        }
+
+        .pageHeader {
+            padding: 1.5rem;
+            background: #2d3748; /* Gunmetal */
+            color: #fff;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            transition: background 0.3s ease;
+        }
+
+        .headerContainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Homemade Apple', cursive;
+            font-size: 1.8rem;
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .top-menu {
+            height: 2.5rem;
+            width: 2.5rem;
+            right: 1rem;
+            top: 1rem;
+            text-align: center;
+            font-size: 1.5rem;
+            cursor: pointer;
+            background-color: #4caf50; /* Green */
+            color: #fff;
+            border: none;
+            border-radius: 0.5rem;
+            transition: background 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .top-menu:hover {
+            background-color: #45a049; /* Darker Green on hover */
+        }
+
+        .plus-sign::before {
+            content: '\002B'; /* Unicode character for plus sign */
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+
+<body class="font-sans">
+    <header class="pageHeader">
+        <div class="headerContainer">
+            <a href="/" class="logo">DevDoodle Blog</a>
+            <a href="{% url 'post_new' %}" class="top-menu plus-sign"></a>
+        </div>
+    </header>
+    <div class="content container mx-auto mt-8">
+        <div class="row">
+            <div class="col-md-8">
+                {% block content %} {% endblock %}
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
