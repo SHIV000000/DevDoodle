@@ -1,4 +1,4 @@
-# DevDoodle Blog
+# DevDoodle - A Blog Webapp
 
 ## Table of Contents
 - [Description](#description)
@@ -42,7 +42,7 @@ git clone https://github.com/SHIV000000/DevDoodle.git
 ```bash
 cd DevDoodle
 ```
-**Create a Virtual Environment**
+### Create a Virtual Environment
 
 **On macOS/Linux:**
    ```bash
@@ -60,7 +60,7 @@ py -m venv venv
 
 **Activate the Virtual Environment:**
 ```bash
-.\venv\Scripts\activate
+venv\Scripts\activate
 ```
 
 ## Install Dependencies:
