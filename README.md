@@ -45,20 +45,27 @@ cd DevDoodle
 ### Create a Virtual Environment
 
 **On macOS/Linux:**
-   ```bash
 
-   python3 -m venv venv
-   ```
-**Activate the Virtual Environment:**
 ```bash
-source venv/bin/activate
- ```
+python3 -m venv venv
+```
+
 **On Windows:**
+
 ```bash
 py -m venv venv
 ```
 
-**Activate the Virtual Environment:**
+### Activate the Virtual Environment:
+
+**On macOS/Linux:**
+
+```bash
+source venv/bin/activate
+```
+
+**On Windows:**
+
 ```bash
 venv\Scripts\activate
 ```
