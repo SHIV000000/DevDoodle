@@ -34,7 +34,7 @@ The DevDoodle Blog is a web application designed for developers and tech enthusi
 ## Installation
 To run the DevDoodle Blog locally, follow these steps:
 
-###  Clone the Repository
+##  Clone the Repository
 
 ```bash
 git clone https://github.com/SHIV000000/DevDoodle.git
@@ -42,24 +42,24 @@ git clone https://github.com/SHIV000000/DevDoodle.git
 ```bash
 cd DevDoodle
 ```
-### Create a virtual environment:
+## Create a virtual environment:
 
-## On Macos\Linux:
+### On Macos\Linux:
 ```bash
 python3 -m venv venv
  ```
-## On Windows:
+### On Windows:
 ```bash
 py -m venv venv
 ```
-### Activate  virtual environment:
+## Activate  virtual environment:
 
-## On Macos\Linux:
+### On Macos\Linux:
 ```bash
 source venv/bin/activate
 ```
 
-# On Windows:
+### On Windows:
 ```bash
 venv\Scripts\activate
 ```
@@ -70,7 +70,7 @@ venv\Scripts\activate
 ```bash
 pip install django
 ```
-**Apply Migrations:**
+## Apply Migrations:
 
 ```bash
 python manage.py makemigrations
