@@ -94,3 +94,25 @@ python manage.py runserver
 ```
 
 Visit http://127.0.0.1:8000/ in your browser.
+## Contributing
+
+We welcome contributions from the community! If you'd like to contribute to this project, please follow these guidelines:
+
+- **Reporting Issues**: If you encounter any bugs or issues, please open an issue on GitHub and provide as much detail as possible.
+- **Feature Requests**: If you have any ideas for new features, feel free to open an issue to discuss them.
+- **Code Contributions**: If you'd like to contribute code, please fork the repository, make your changes, and submit a pull request. Make sure your code follows our coding standards and include tests if applicable.
+
+### Example Contribution
+
+To contribute a new feature or fix a bug:
+
+1. Fork the repository.
+2. Create a new branch for your feature or fix: `git checkout -b feature-name`
+3. Make your changes and commit them: `git commit -am 'Added new feature'`
+4. Push your changes to your fork: `git push origin feature-name`
+5. Open a pull request on GitHub.
+
+We'll review your changes and merge them into the main branch once they've been approved.
+
+##### Thank you for contributing to our project!
+
