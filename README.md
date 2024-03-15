@@ -79,12 +79,12 @@ python manage.py makemigrations
 ```bash
 python manage.py migrate
 ```
-**Create Superuser (Optional)**
+## Create Superuser (Optional)
 
  ```bash
 python manage.py createsuperuser
 ```
-**Run the Development Server**
+## Run the Development Server
 
 ```bash
 python manage.py runserver
