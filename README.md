@@ -55,6 +55,7 @@ python3 -m venv venv
 ```bash
 py -m venv venv
 ```
+
 ## Activate  virtual environment:
 
 ### On Macos\Linux:
@@ -73,6 +74,11 @@ venv\Scripts\activate
 ```bash
 pip install django
 ```
+**Either do:=**
+```bash
+pip install -r requirements.txt
+```
+
 ## Apply Migrations:
 
 ```bash
