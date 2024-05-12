@@ -1,10 +1,5 @@
 # DevDoodle - A Blog Webapp
 
-## Table of Contents
-- [Description](#description)
-- [Key Features](#key-features)
-- [Installation](#installation)
-
 ## Description
 
 The DevDoodle Blog is a web application designed for developers and tech enthusiasts to share, explore, and engage in tech-related content. With a focus on simplicity and visual appeal, this blog provides an intuitive platform for users to create, edit, and discover posts without the need for authentication. Dive into the world of technology, express your thoughts, and connect with like-minded individuals through the DevDoodle Blog.
