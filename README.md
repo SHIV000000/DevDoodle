@@ -40,11 +40,9 @@ git clone https://github.com/SHIV000000/DevDoodle.git
 ```bash
 cd DevDoodle
 ```
-## Create a virtual environment:
-### On Macos\Linux: `python3 -m venv venv` On Windows: `py -m venv venv`
+### Create a virtual environment: On Macos\Linux: `python3 -m venv venv` On Windows: `py -m venv venv`
 
-## Activate  virtual environment:
-### On Macos\Linux: `source venv/bin/activate`   On Windows: `venv\Scripts\activate`
+### Activate  virtual environment: On Macos\Linux: `source venv/bin/activate`   On Windows: `venv\Scripts\activate`
 
 
 ## Install Dependencies:
